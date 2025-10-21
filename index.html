@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 3 Evidencia 2</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <h1>Peliculas de Star Wars</h1>
+    </header>
+    <main>
+        <section id="menu">
+            <label for="pelicula"><strong>Elija el numero de la pelicula que quiere ver</strong></label>
+            <input type="number" max="6" name="pelicula" id="pelicula">
+            <button id="boton">Abrir</button>
+            <div>
+                <ol>
+                    <li>Episodio IV: Una nueva esperanza (1977)</li>
+                    <li>Episodio V: El imperio contraataca (1980)</li>
+                    <li>Episodio VI: El retorno del Jedi (1983)</li>
+                    <li>Episodio I: La amenaza fantasma (1999)</li>
+                    <li>Episodio II: El ataque de los clones (2002)</li>
+                    <li>Episodio III: La venganza de los Sith (2005)</li>
+                </ol>
+            </div>
+        </section>
+
+        <section id="movie">
+            <h2 id="nombre"></h2>
+            <p id="intro"></p>
+            <p><strong>Fecha de estreno:</strong> <span id="estreno"></span></p>
+            <p><strong>Personajes</strong></p>
+            <ul id="personajes"></ul>
+            <p><strong>Planetas</strong></p>
+            <ul id="planetas"></ul>
+            <p><strong>Vehículos</strong></p>
+            <ul id="vehiculos"></ul>
+            <p><strong>Especies</strong></p>
+            <ul id="especies"></ul>
+        </section>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>

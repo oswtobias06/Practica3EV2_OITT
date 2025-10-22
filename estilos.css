@@ -3,30 +3,39 @@ body {
 }
 
 header {
-  background-color: #05204A;
-  color: white;
+  background-color: black;
+  color: #feda4a;
   text-align: center;
+  align-content: center;
   padding: 25px 0;
   font-size: 20px;
-  box-shadow: 0 0 15px rgba(0,0,0,0.4);
+  box-shadow: 0 0 15px black;
+  display: flex;
+  justify-content: center;
+}
+
+#logo {
+  width: 10em;
 }
 
 #menu {
-  background-color: rgba(255, 255, 255, 0.05);
+  background-color: black;
+  color: #feda4a;
   width: 50%;
   margin: 30px auto;
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0 0 15px rgba(0,0,0,0.4);
+  box-shadow: 0 0 15px black;
 }
 
 #movie {
-  background-color: rgba(255, 255, 255, 0.07);
+  background-color: black;
+  color: #feda4a;
   width: 80%;
   margin: 20px auto 50px;
   padding: 25px;
   border-radius: 12px;
-  box-shadow: 0 0 20px rgba(255,255,255,0.1);
+  box-shadow: 0 0 20px black;
 }
 
 #nombre {
